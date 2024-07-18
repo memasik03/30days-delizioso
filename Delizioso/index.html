@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+
+    <title>Delizioso</title>
+
+    <link rel='stylesheet' href='style.css'>
+    <script src='script.js' defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class='wrapper'>
+        <section class="intro_section">
+            <header class="header">
+                <div class="header__container">
+                    <div class="header_inner">
+                        <button class="logo-button">
+                            <div class="logo"><div class="logo__letter">D</div></div>
+                            <h2 class="logo-title">Delizi<span>oso</span></h2>
+                        </button>
+                        <nav class="nav">
+                            <a href="#" class="nav__element nav__element_active">Home</a>
+                            <a href="#" class="nav__element">Menu</a>
+                            <a href="#" class="nav__element">About us</a>
+                            <a href="#" class="nav__element">Order online</a>
+                            <a href="#" class="nav__element">Reservation</a>
+                            <a href="#" class="nav__element">Contact us</a>
+                        </nav>
+                        <div class="header__buttons">
+                            <button class="basket__button"><img src="/img/intro/basket.svg" alt="Basket" class="basket__button_image"></button>
+                            <button class="login__button">Login</button>
+                            <button class="header__home-button"><img src="img/intro/home.svg" alt="Home"></button>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <div class="intro">
+                <div class="intro__container">
+                    <div class="info-block">
+                        <div class="intro__subtitle"><h3>Restauran</h3></div>
+                        <h2 class="intro__title">Italian Cuisine</h2>
+                        <h3 class="intro__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sodales senectus dictum arcu sit tristique donec eget.</h3>
+                        <div class="intro__buttons">
+                            <button class="orange-button">Order now</button>
+                            <button class="intro__reservation">Reservation</button>
+                        </div>
+                    </div>
+                    <div class="intro_pic">
+                        <img src="img/intro/spaghetti.png" alt="Spaghetti" class="intro_pic__image">
+                        <img src="img/intro/cabbage.png" alt="Cabbage" class="intro_pic__decorate intro_pic__decorate_one">
+                        <img src="img/intro/cabbage.png" alt="Cabbage" class="intro_pic__decorate intro_pic__decorate_two">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="welcome-section">
+            <div class="welcome-section__container">
+                <div class="welcome-section__picture">
+                    <img src="/img/welcome/salad.png" alt="Salad" class="welcome-section__image">
+                    <img src="img/welcome/basil.png" alt="Basil" class="welcome-section__decorate welcome-section__decorate_1">
+                    <img src="img/welcome/basil.png" alt="Basil" class="welcome-section__decorate welcome-section__decorate_2">
+                    <img src="img/welcome/basil.png" alt="Basil" class="welcome-section__decorate welcome-section__decorate_3">
+                </div>
+                <div class="info-block">
+                    <h2 class="title">Welcome to <span>delizioso</span></h2>
+                    <h3 class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisis ultricies at eleifend proin. Congue nibh nulla malesuada ultricies nec quam </h3>
+                    <button class="orange-button">See our menu</button>
+                </div>
+            </div>
+        </section>
+        <section class="menu-section">
+            <div class="menu-section__container">
+                <h2 class="menu-section__title">Our popular menu</h2>
+                <div class="menu-categories">
+                    <button class="menu-categories__item menu-categories__item_active">All catagory</button>
+                    <button class="menu-categories__item">Dinner</button>
+                    <button class="menu-categories__item">Lunch</button>
+                    <button class="menu-categories__item">Dessert</button>
+                    <button class="menu-categories__item">Drink</button>
+                </div>
+                
+                <div class="menu-section__menu">
+                    <div class="dish-card">
+                        <div class="dish-card__picture">
+                            <img src="/img/menu/5.png" alt="Spaghetti" class="dish-card__image">
+                        </div>
+                        <div class="dish-card__info">
+                            <h2 class="dish-card__title">Gnocchi</h2>
+                            <div class="dish-card__rating">
+                                <img src="img/menu/star.svg" alt="Star" class="dish-card__star dish-card__star_active">
+                                <img src="img/menu/star.svg" alt="Star" class="dish-card__star dish-card__star_active">
+                                <img src="img/menu/star.svg" alt="Star" class="dish-card__star dish-card__star_active">
+                                <img src="img/menu/star.svg" alt="Star" class="dish-card__star dish-card__star_active">
+                                <img src="img/menu/star.svg" alt="Star" class="dish-card__star">
+                            </div>
+                            <h3 class="dish-card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Egestas consequat mi eget auctor aliquam, diam. </h3>
+                        </div>
+                        <div class="dish-card__buttons">
+                            <h3 class="dish-card__price">12,05</h3>
+                            <button class="orange-button dish-card__order">Order now</button>
+                        </div>
+                    </div>
+                    <div class="dish-card">
+                        <div class="dish-card__picture">
+                            <img src="/img/menu/1.png" alt="Spaghetti" class="dish-card__image">
+                        </div>
+                        <div class="dish-card__info">
+                            <h2 class="dish-card__title">Rovioli</h2>
+                            <div class="dish-card__rating">
+                                <img src="img/menu/star.svg" alt="Star" class="dish-card__star dish-card__star_active">
+                                <img src="img/menu/star.svg" alt="Star" class="dish-card__star dish-card__star_active">
+                                <img src="img/menu/star.svg" alt="Star" class="dish-card__star dish-card__star_active">
+                                <img src="img/menu/star.svg" alt="Star" class="dish-card__star dish-card__star_active">
+                                <img src="img/menu/star.svg" alt="Star" class="dish-card__star">
+                            </div>
+                            <h3 class="dish-card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Egestas consequat mi eget auctor aliquam, diam. </h3>
+                        </div>
+                        <div class="dish-card__buttons">
+                            <h3 class="dish-card__price">12,05</h3>
+                            <button class="orange-button dish-card__order">Order now</button>
+                        </div>
+                    </div>
+                    <div class="dish-card">
+                        <div class="dish-card__picture">
+                            <img src="/img/menu/2.png" alt="Spaghetti" class="dish-card__image">
+                        </div>
+                        <div class="dish-card__info">
+                            <h2 class="dish-card__title">Penne Alla Vodak</h2>
+                            <div class="dish-card__rating">
+                                <img src="img/menu/star.svg" alt="Star" class="dish-card__star dish-card__star_active">
+                                <img src="img/menu/star.svg" alt="Star" class="dish-card__star dish-card__star_active">
+                                <img src="img/menu/star.svg" alt="Star" class="dish-card__star dish-card__star_active">
+                                <img src="img/menu/star.svg" alt="Star" class="dish-card__star dish-card__star_active">
+                                <img src="img/menu/star.svg" alt="Star" class="dish-card__star">
+                            </div>
+                            <h3 class="dish-card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Egestas consequat mi eget auctor aliquam, diam. </h3>
+                        </div>
+                        <div class="dish-card__buttons">
+                            <h3 class="dish-card__price">12,05</h3>
+                            <button class="orange-button dish-card__order">Order now</button>
+                        </div>
+                    </div>
+                    <div class="dish-card">
+                        <div class="dish-card__picture">
+                            <img src="/img/menu/3.png" alt="Spaghetti" class="dish-card__image">
+                        </div>
+                        <div class="dish-card__info">
+                            <h2 class="dish-card__title">Risoto</h2>
+                            <div class="dish-card__rating">
+                                <img src="img/menu/star.svg" alt="Star" class="dish-card__star dish-card__star_active">
+                                <img src="img/menu/star.svg" alt="Star" class="dish-card__star dish-card__star_active">
+                                <img src="img/menu/star.svg" alt="Star" class="dish-card__star dish-card__star_active">
+                                <img src="img/menu/star.svg" alt="Star" class="dish-card__star dish-card__star_active">
+                                <img src="img/menu/star.svg" alt="Star" class="dish-card__star">
+                            </div>
+                            <h3 class="dish-card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Egestas consequat mi eget auctor aliquam, diam. </h3>
+                        </div>
+                        <div class="dish-card__buttons">
+                            <h3 class="dish-card__price">12,05</h3>
+                            <button class="orange-button dish-card__order">Order now</button>
+                        </div>
+                    </div>
+                    <div class="dish-card">
+                        <div class="dish-card__picture">
+                            <img src="/img/menu/4.png" alt="Spaghetti" class="dish-card__image">
+                        </div>
+                        <div class="dish-card__info">
+                            <h2 class="dish-card__title">Splitza Signature</h2>
+                            <div class="dish-card__rating">
+                                <img src="img/menu/star.svg" alt="Star" class="dish-card__star dish-card__star_active">
+                                <img src="img/menu/star.svg" alt="Star" class="dish-card__star dish-card__star_active">
+                                <img src="img/menu/star.svg" alt="Star" class="dish-card__star dish-card__star_active">
+                                <img src="img/menu/star.svg" alt="Star" class="dish-card__star dish-card__star_active">
+                                <img src="img/menu/star.svg" alt="Star" class="dish-card__star">
+                            </div>
+                            <h3 class="dish-card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Egestas consequat mi eget auctor aliquam, diam. </h3>
+                        </div>
+                        <div class="dish-card__buttons">
+                            <h3 class="dish-card__price">12,05</h3>
+                            <button class="orange-button dish-card__order">Order now</button>
+                        </div>
+                    </div>
+                    <div class="dish-card">
+                        <div class="dish-card__picture">
+                            <img src="/img/intro/spaghetti.png" alt="Spaghetti" class="dish-card__image">
+                        </div>
+                        <div class="dish-card__info">
+                            <h2 class="dish-card__title">Spaghetti</h2>
+                            <div class="dish-card__rating">
+                                <img src="img/menu/star.svg" alt="Star" class="dish-card__star dish-card__star_active">
+                                <img src="img/menu/star.svg" alt="Star" class="dish-card__star dish-card__star_active">
+                                <img src="img/menu/star.svg" alt="Star" class="dish-card__star dish-card__star_active">
+                                <img src="img/menu/star.svg" alt="Star" class="dish-card__star dish-card__star_active">
+                                <img src="img/menu/star.svg" alt="Star" class="dish-card__star">
+                            </div>
+                            <h3 class="dish-card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Egestas consequat mi eget auctor aliquam, diam. </h3>
+                        </div>
+                        <div class="dish-card__buttons">
+                            <h3 class="dish-card__price">12,05</h3>
+                            <button class="orange-button dish-card__order">Order now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="control-buttons">
+                    <button class="control-button control-buttons__prev"><img src="img/arrow.svg" alt="Arrow"></button>
+                    <button class="control-button control-buttons__number">1</button>
+                    <button class="control-button control-buttons__number">2</button>
+                    <button class="control-button control-buttons__number">3</button>
+                    <button class="control-button control-buttons__other">...</button>
+                    <button class="control-button control-buttons__next"><img src="img/arrow.svg" alt="Arrow"></button>
+                </div>
+            </div>
+        </section>
+        <section class="reservation-section">
+            <div class="reservation-section__container">
+                <div class="reservation-section__picture">
+                    <div class="reservation-section__circle"></div>
+                    <img src="img/reservation/1.jpg" alt="Reservation" class="reservation-section__image" id="jupiter">
+                </div>
+                <div class="info-block reservation-section__info">
+                    <h2 class="title">Let's reserve <span>a table</span></h2>
+                    <h3 class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisis ultricies at eleifend proin. Congue nibh nulla malesuada ultricies nec quam </h3>
+                    <button class="orange-button">Reservation</button>
+                </div>
+            </div>
+        </section>
+        <section class="chiefs-section">
+            <div class="chiefs-section__container">
+                <h2 class="section-title">Our greatest chef</h2>
+                <div class="chiefs-section__row">
+                    <div class="chief-card">
+                        <div class="chief-card__picture" style="background-color: rgba(27, 22, 29, 0.2);">
+                            <img src="img/chiefs/1.png" alt="Betran Komar">
+                        </div>
+                        <h3 class="chief-card__name">Betran Komar</h3>
+                        <h3 class="chief-card__type">Head chef</h3>
+                    </div>
+                    <div class="chief-card">
+                        <div class="chief-card__picture" style="background-color: rgba(255, 138, 0, 0.2);">
+                            <img src="img/chiefs/2.png" alt="Betran Komar">
+                        </div>
+                        <h3 class="chief-card__name">Ferry Sauwi</h3>
+                        <h3 class="chief-card__type">Chef</h3>
+                    </div>
+                    <div class="chief-card">
+                        <div class="chief-card__picture" style="background-color: rgba(157, 101, 66, 0.2);">
+                            <img src="img/chiefs/3.png" alt="Betran Komar">
+                        </div>
+                        <h3 class="chief-card__name">Iswan Dracho</h3>
+                        <h3 class="chief-card__type">Chef</h3>
+                    </div>
+                </div>
+                <button class="orange-button chiefs-section__button">View all</button>
+            </div>
+        </section>
+        <section class="finish-section">
+            <div class="finish-section__container">
+                <h2 class="section-title finish-section__title">We are open from</h2>
+                <div class="finish-section__schedule">
+                    <h2 class="finish-section__schedule-title">Monday-Sunday</h2>
+                    <h3 class="finish-section__time">Launch : Mon-Sun : 11:00am-02:00pm</h3>
+                    <h3 class="finish-section__time">Dinner : sunday : 04:00pm-08:00pm</h3>
+                    <h3 class="finish-section__time">04:00pm-09:00pm</h3>
+                </div>
+                <div class="finish-section__buttons">
+                    <button class="orange-button">Order now</button>
+                    <button class="finish-section__button-reservation orange-button">Reservation</button>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="footer__container">
+                <div class="footer__socials">
+                    <button class="logo-button">
+                        <div class="logo"><div class="logo__letter">D</div></div>
+                        <h2 class="logo-title footer__logo-title">Delizi<span>oso</span></h2>
+                    </button>
+                    <h3 class="footer__text">Viverra gravida morbi egestas facilisis tortor netus non duis tempor. </h3>
+                    <div class="footer__socials-buttons">
+                        <button class="social-button"><img src="img/footer/twitter.png" alt="Twitter"></button>
+                        <button class="social-button"><img src="img/footer/facebook.png" alt="Twitter"></button>
+                        <button class="social-button"><img src="img/footer/instagram.png" alt="Twitter"></button>
+                    </div>
+                </div>
+                <div class="footer-chapter">
+                    <h3 class="footer-chapter__title">Page</h3>
+                    <a href="#" class="footer-chapter__item">Home</a>
+                    <a href="#" class="footer-chapter__item">Menu</a>
+                    <a href="#" class="footer-chapter__item">Order online</a>
+                    <a href="#" class="footer-chapter__item">Catering</a>
+                    <a href="#" class="footer-chapter__item">Reservation</a>
+                </div>
+                <div class="footer-chapter">
+                    <h3 class="footer-chapter__title">Information</h3>
+                    <a href="#" class="footer-chapter__item">About us</a>
+                    <a href="#" class="footer-chapter__item">Testimonial</a>
+                    <a href="#" class="footer-chapter__item">Event</a>
+                </div>
+                <div class="footer-chapter">
+                    <h3 class="footer-chapter__title">Get in touch</h3>
+                    <a href="#" class="footer-chapter__item">3247 Johnson Ave, Bronx, NY 10463, Amerika Serikat</a>
+                    <a href="#" class="footer-chapter__item">delizioso@gmail.com</a>
+                    <a href="#" class="footer-chapter__item">+123 4567 8901</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
